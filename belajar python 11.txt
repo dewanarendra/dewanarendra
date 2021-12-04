@@ -1,1 +1,2 @@
-saya sedang belajar git
+saya dewanarendra
+belajar git command
