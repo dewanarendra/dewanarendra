@@ -4,7 +4,7 @@ nama = input("masukan nama anda: ") # default string
 umur = int(input("masukan umur: "))
 
 print("nama saya adalah:" + nama)
-print("umur:" + umur)
+print(type(umur))
 
 #menghitung luas persegi panjang
 p = int(input("masukan panjang:" ))
