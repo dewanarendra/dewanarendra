@@ -21,7 +21,7 @@ def list_kontak(daftarkontak):
         print("-------------------------")
         print(f"Nama : {kontak['Nama']}")                    #kontak [keys]
         print(f"No Telp : {kontak['Telepon']}")               #kontak [keys]
-        print("--------------------------")
+        print("-------------------------")
 
 def tambah_kontak():
     Nama = input("Masukkan Nama : ")

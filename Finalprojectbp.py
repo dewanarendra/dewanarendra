@@ -21,6 +21,6 @@ body = MIMEText("final_project")
 pesan.attach(body)
 
 smtp = smtplib.SMTP("dewa@example.com")
-smtp.sendmail(pengirim, penerima.split(",") + pesan["cc"].split(","), pesan.as_string())
+smtp.sendmail(pesan["From"], pesan["To"].split(",") + pesan["cc"].split(","), pesan.as_string())
 smtp.quit()
 
